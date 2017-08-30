@@ -84,7 +84,7 @@ public class LoginServlet extends HttpServlet {
 					userName.setMaxAge(25*60);
 					response.addCookie(userName);
 			        String x=request.getRequestedSessionId();
-					String encodedURL = response.encodeRedirectURL("http://localhost:8082/FirstServlet/index.jsp?id="+x);
+					String encodedURL = response.encodeRedirectURL("FirstServlet/index.jsp?id="+x);
 					response.sendRedirect(encodedURL);
 					
 	            }
