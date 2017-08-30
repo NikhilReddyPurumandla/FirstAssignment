@@ -7,6 +7,8 @@ This web application is done using servlets,html,jsp,mysql.
 
 Execution Flow:
 
+create a table with name 'User' in mysql database using the command specified in 'User.sql' file
+
 execution starts with login.html Here,there are two options available:
 
 a) Login: The existing user can directly login using credentials.These credentials will be authenticated using "LoginServlet.java". The LoginServlet.java creates a session for user if his credentials are correct and then directs user to "Index.jsp" file, if the credentials are incorrect, user will be directed to error page.
