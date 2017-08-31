@@ -3,6 +3,7 @@ package util;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -18,7 +19,9 @@ public class DbConnection {
         	   try
         {
         Properties props = new Properties();
-        	FileInputStream in = new FileInputStream("/home/nikhilr/eclipse-workspace/FirstServlet/Jdbc.properties");
+  
+        InputStream in = DbConnection.class.getResourceAsStream("Jdbc.properties");
+        	//FileInputStream in =(FileInputStream) DbConnection.class.getResourceAsStream("Jdbc.properties");
         	props.load(in);
         	in.close();
 
