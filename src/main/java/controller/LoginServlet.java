@@ -55,6 +55,7 @@ public class LoginServlet extends HttpServlet {
 
 		PrintWriter out=response.getWriter();
 		HttpSession session1 = request.getSession(false);
+		
 		 if (session1 != null)
 	        {
 	        	
@@ -63,6 +64,7 @@ public class LoginServlet extends HttpServlet {
 	         
 	       
 			}
+		 
 		String email=request.getParameter("email");
 		String Password=request.getParameter("pass");
 	    SignupBean sb=new SignupBean();
@@ -84,7 +86,8 @@ public class LoginServlet extends HttpServlet {
 					userName.setMaxAge(25*60);
 					response.addCookie(userName);
 			        String x=request.getRequestedSessionId();
-					String encodedURL = response.encodeRedirectURL("FirstServlet/index.jsp?id="+x);
+			        System.out.println("mr user your id is"+x);
+					String encodedURL = response.encodeRedirectURL("index.jsp?id="+x);
 					response.sendRedirect(encodedURL);
 					
 	            }
