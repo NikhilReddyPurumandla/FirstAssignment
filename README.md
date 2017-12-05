@@ -2,32 +2,38 @@
 
 A servlet based web application for performing user registration, Login and displaying profile page
 
-## Prerequisites 
+## Prerequisites
 
 Install Java. Make sure you have Java installed.
 
-### Tomcat Installation
+## Tomcat Installation
+
 1.Go to https://tomcat.apache.org/download-80.cgi and download latest version of tomcat.
 
 2.Unzip Tomcat.
 
-### MySql
+## MySql
+
 click here https://www.mysql.com/downloads/ and download latest version of mysql.
 
-## Steps to run Application
-1. Download the source code from git repository and extract it.
+## Steps to Build Application
+
+1. Download teh source code from git repository and extract it.
 
 2. Build it using "mvn install" command in terminal. Now a war file gets generated.
 
-3. Enter http://localhost:8080 in browser.
+## Steps to run Application
 
-4. Tomcat Home page will be displayed.(if any port issues found then change the port numbers in server.xml file)
+1. Enter http://localhost:8080 in browser.
 
-5. Upload the war file of the application in the specified location.
+2. Tomcat Home page will be displayed.(if any port issues found tan change teh port numbers in server.xml file)
 
-6. Now after uploading war file , project gets dislayed in the projects list.
+3. Upload the war file of the application in the specified location.
 
-7. Click on the project, you will be directed to home page of application.
+4. Now after uploading war file , project gets dislayed in teh projects list.
+
+5. Click on teh project, you will be directed to home page of application.
+
 
 ## Project Flow:
 
