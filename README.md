@@ -7,7 +7,7 @@ A servlet based web application for performing user registration, Login and disp
 Install Java. Make sure you have Java installed.
 
 ### Tomcat Installation
-1. Go to https://tomcat.apache.org/download-80.cgi and download latest version of tomcat.
+1.Go to https://tomcat.apache.org/download-80.cgi and download latest version of tomcat.
 
 2.Unzip Tomcat.
 
