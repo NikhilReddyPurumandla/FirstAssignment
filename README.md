@@ -1,11 +1,11 @@
 # FirstAssignment
 An assignment for creating a sample webapplication
 
-Prerequisites: EclipseIDE for j2EE, MYSQL, JDK 8.
+# Prerequisites: EclipseIDE for j2EE, MYSQL, JDK 8.
 
 This web application is done using servlets,html,jsp,mysql.
 
-Execution Flow:
+# Execution Flow:
 
 create a table with name 'User' in mysql database using the command specified in 'User.sql' file
 
