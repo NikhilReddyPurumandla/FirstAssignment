@@ -24,7 +24,7 @@ When user clicks logout button, the "LogoutServlet.java" gets executed and then 
 
 After logout,the user cannot be able to see the authorized files by clicking back button of browser. This feature is obtained by using sessions.
 
-# License
+# License 
 MIT License
 
 Copyright (c) [2017] [NikhilReddyPurumandla]
