@@ -4,19 +4,31 @@ A servlet based web application for performing user registration, Login and disp
 
 ## Prerequisites: 
 
-EclipseIDE for j2EE, MYSQL, JDK 8.
+EclipseIDE for j2EE (neon or oxygen version),
+MYSQL ,
+JDK 8.
 
 This web application is done using servlets,html,jsp,mysql.
 
-## Execution Flow:
+## Steps to run Application
+1. Download the source code from git repository and extract it.
+2. Enter http://localhost:8080 in browser.
+3. Tomcat Home page will be displayed.(if any port issues found then change the port numbers in server.xml file)
+4. Upload the war file of the application in the specified location.
+5. Now after uploading war file , project gets dislayed in the projects list.
+6. Click on the project, you will be directed to home page of application.
+
+## Project Flow:
 
 create a table with name 'User' in mysql database using the command specified in 'User.sql' file
 
 execution starts with login.html Here,there are two options available:
 
-a) Login: The existing user can directly login using credentials.These credentials will be authenticated using "LoginServlet.java". The LoginServlet.java creates a session for user if his credentials are correct and then directs user to "Index.jsp" file, if the credentials are incorrect, user will be directed to error page.
+### a) Login:
+The existing user can directly login using credentials.These credentials will be authenticated using "LoginServlet.java". The LoginServlet.java creates a session for user if his credentials are correct and then directs user to "Index.jsp" file, if the credentials are incorrect, user will be directed to error page.
 
-b) Registration: The new user can register in the application by clicking on reference link given in login.html file. Once registration is completed, the user will be directed to "login.html" and user can login using credentials.
+### b) Registration: 
+The new user can register in the application by clicking on reference link given in login.html file. Once registration is completed, the user will be directed to "login.html" and user can login using credentials.
 
 ProfileServlet.java displays the details of logged in user.
 
