@@ -2,13 +2,13 @@
 
 A servlet based web application for performing user registration, Login and displaying profile page
 
-# Prerequisites: 
+## Prerequisites: 
 
 EclipseIDE for j2EE, MYSQL, JDK 8.
 
 This web application is done using servlets,html,jsp,mysql.
 
-# Execution Flow:
+## Execution Flow:
 
 create a table with name 'User' in mysql database using the command specified in 'User.sql' file
 
@@ -24,7 +24,7 @@ When user clicks logout button, the "LogoutServlet.java" gets executed and then 
 
 After logout,the user cannot be able to see the authorized files by clicking back button of browser. This feature is obtained by using sessions.
 
-# License 
+## License 
 MIT License
 
 Copyright (c) [2017] [NikhilReddyPurumandla]
