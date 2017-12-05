@@ -3,6 +3,9 @@
 A servlet based web application for performing user registration, Login and displaying profile page
 
 ## Installations 
+
+Install Jdk8.
+
 ### Tomcat Installation
 1.Install Java. Make sure you have Java installed.
 
@@ -16,12 +19,8 @@ A servlet based web application for performing user registration, Login and disp
 
 6.Adjust Eclipse preferences.
 
-
-MYSQL,
-
-JDK 8.
-
-This web application is done using servlets,html,jsp,mysql.
+### MySql
+click here https://www.mysql.com/downloads/ and download latest version of mysql.
 
 ## Steps to run Application
 Download the source code from git repository and extract it.
