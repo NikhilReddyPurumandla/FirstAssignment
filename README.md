@@ -1,7 +1,10 @@
-# FirstAssignment
-An assignment for creating a sample webapplication
+# UserManagement
 
-# Prerequisites: EclipseIDE for j2EE, MYSQL, JDK 8.
+A servlet based web application for performing user registration, Login and displaying profile page
+
+# Prerequisites: 
+
+EclipseIDE for j2EE, MYSQL, JDK 8.
 
 This web application is done using servlets,html,jsp,mysql.
 
