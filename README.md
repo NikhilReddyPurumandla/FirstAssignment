@@ -4,16 +4,17 @@ A servlet based web application for performing user registration, Login and disp
 
 ## Installations 
 
-Install Jdk8.
+Install Java. Make sure you have Java installed.
 
 ### Tomcat Installation
-1.Install Java. Make sure you have Java installed.
+1. Go to https://tomcat.apache.org/download-80.cgi and download latest version of tomcat.
 
-2.Unzip Tomcat. Unzip tomcat-6.0.28-preconfigured.zip.
+2.Unzip Tomcat.
+
 ### Eclipse Installation
 3.Download Eclipse. Install the Java EE version of Eclipse.
 
-4.Tell Eclipse about Tomcat. Start Eclipse and go to workbench
+4.Add tomcat into Eclipse . Start Eclipse and go to workbench
 
 5.Test the server. Test Tomcat within Eclipse.
 
