@@ -5,7 +5,9 @@ A servlet based web application for performing user registration, Login and disp
 ## Prerequisites: 
 
 EclipseIDE for j2EE (neon or oxygen version),
-MYSQL ,
+
+MYSQL,
+
 JDK 8.
 
 This web application is done using servlets,html,jsp,mysql.
